@@ -1,0 +1,109 @@
+:root {
+    background: azure;
+}
+* {
+    color: black;
+}
+h1 {
+    color: blue;
+}
+.green {
+    color: darkgreen;
+}
+#blue {
+    color: rgb(6, 6, 215);
+}
+.box div {
+    background: chartreuse;
+}
+.box p {
+    color: brown;
+}
+.brown {
+    background: sienna;
+    color: azure;
+}
+ul>li {
+    background: firebrick;
+}
+.header-button + span {
+    background: crimson;
+}
+.susid~p {
+    background: darkblue;
+    color: aliceblue;
+}
+.salo,#bread {
+    background: gold;
+}
+
+.first-task li:first-child {
+    color: aliceblue;
+} 
+.second-task ul:first-child li:first-child {
+    color: gold;
+}
+.third-task ul:first-child li:first-child {
+    background: yellow;
+}
+.four-task li:last-child {
+    background: yellow;
+}
+.five-task li:last-child {
+   color: yellow;
+}
+.only-child-task div:only-child {
+    color: brown;
+}
+.seven-task p:first-of-type {
+    background: brown;
+}
+.eight-task span:last-of-type {
+    background: brown;
+}
+.text-wrapper p:only-of-type {
+    background: gold;
+}
+
+.lesson-three-task-one a[href] {
+    color:aliceblue;
+}
+.lesson-three-task-two li[value] {
+    color:yellow;
+}
+.lesson-three-task-three li[value="3"] {
+    background: brown;
+}
+.lesson-three-task-four button[class~="primary"] {
+    background: rgb(21, 5, 112);
+}
+.lesson-three-task-five button[class|="secondary"] {
+    background: rgb(169, 1, 1);
+}
+.lesson-three-task-six li[class^="b"] {
+    background:aliceblue;
+    color: rgb(1, 66, 23);
+}
+.lesson-three-task-seven li[class*="on"] {
+    background:aliceblue;
+    color: rgb(1, 66, 23);
+}
+.lesson-three-task-eight span[class$="s"] {
+    background: aliceblue;
+    color: blue;
+}
+.lesson-three-task-nine h2::first-letter {
+    color: brown;
+}
+.lesson-three-task-ten::first-line {
+    background: gold;
+}
+.lesson-three-task-eleven input::placeholder {
+    background: rgb(169, 1, 1);
+}
+.lesson-three-task-twelve li::before {
+    content: "➤";
+}
+.lesson-three-task-thirteen li::after {
+    content: "➤";
+}
